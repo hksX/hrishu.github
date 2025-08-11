@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hrishu's Creative Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#about" class="nav-link">About Me</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-content">
+            <h1>Hi, I'm Hrishu</h1>
+            <p>Creative Web Developer & Designer</p>
+            <div class="cta">
+                <a href="#contact" class="btn-primary">Contact Me</a>
+                <a href="#projects" class="btn-secondary">View My Work</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>
+                    I’m a passionate web developer and designer. I love transforming creative ideas into interactive, responsive websites that look beautiful and function seamlessly. With expertise in HTML, CSS, JavaScript, and more, I am constantly evolving my skill set to bring innovative solutions to life.
+                </p>
+                <div class="skills">
+                    <span class="skill">HTML</span>
+                    <span class="skill">CSS</span>
+                    <span class="skill">JavaScript</span>
+                    <span class="skill">React</span>
+                    <span class="skill">UI/UX</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section (Quote Generator) -->
+    <section class="project" id="projects">
+        <div class="container">
+            <h2>My Quote Generator</h2>
+            <p class="project-description">A fun, simple quote generator that gives you a new inspirational quote with each click.</p>
+            <div class="quote-container">
+                <p id="quote" class="quote-text">Click the button below to get a new quote!</p>
+                <button onclick="generateQuote()">Generate Quote</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you'd like to collaborate, ask questions, or just want to connect, feel free to reach out!</p>
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>Designed by Hrishu | © 2025</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,255 @@
+/* Navbar Styling */
+.navbar {
+    background: #2c3e50;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 20px;
+    z-index: 1000;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #d500f9;
+}
+
+body {
+    padding-top: 70px; /* Adjust padding to make space for the fixed navbar */
+}
+
+/* Other Styles */
+header {
+    background: linear-gradient(135deg, #6a1b9a, #d500f9);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.header-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    animation: fadeIn 1s ease-out;
+}
+
+.header-content p {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+
+.cta {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: #ffffff;
+    color: #6a1b9a;
+}
+
+.btn-primary:hover {
+    background-color: #f3e5f5;
+}
+
+.btn-secondary {
+    background-color: #d500f9;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #9c1bca;
+}
+
+/* About Section */
+.about {
+    background: #fff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.skills {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.skill {
+    background-color: #d500f9;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.skill:hover {
+    background-color: #6a1b9a;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Project Section */
+.project {
+    padding: 80px 20px;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+.project h2 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+
+.project-description {
+    font-size: 1.3rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.quote-container {
+    background: #ffffff;
+    padding: 40px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.quote-text {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px 30px;
+    background-color: #d500f9;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #6a1b9a;
+}
+
+/* Contact Section */
+.contact {
+    padding: 80px 20px;
+    background: #ffffff;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+}
+
+form {
+    display: grid;
+    grid-gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form input, form textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #d500f9;
+    outline: none;
+}
+
+form button {
+    padding: 14px 30px;
+    background-color: #d500f9;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background-color: #9c1bca;
+}
+
+/* Footer Section */
+footer {
+    background: #2c3e50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1.1rem;
+}
+
+/* Animation for fade-in */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
