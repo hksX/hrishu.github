@@ -20,6 +20,20 @@ Hi, I'm **Hrishu**, a passionate web developer. I specialize in front-end develo
 - GitHub Pages
 
 
+**To deploy a static website using GitHub Pages:**
+
+Create a GitHub Repo: Name it <yourusername>.github.io.
+
+Clone Locally: Clone the repo to your computer.
+
+Add Files: Copy your HTML, CSS, and JS files into the repo.
+
+Commit & Push: Use Git to commit and push changes.
+
+Enable GitHub Pages: In repo settings, set the source to the main branch.
+
+Access Site: Your site will be live at https://<yourusername>.github.io.
+
 <img width="858" height="515" alt="Capture001" src="https://github.com/user-attachments/assets/050c8086-ad2c-4668-8778-3effd5f61495" />
 
 <img width="1108" height="458" alt="Capture0" src="https://github.com/user-attachments/assets/4700a37c-d0b4-491f-bceb-2607d5d5986f" />
